@@ -13,7 +13,7 @@ Executing this code requires Python 3.6 along with the following packages:
 
 To run the code,
 
-1. [Download the data](https://www.kaggle.com/c/cause-effect-pairs/data), and run `python processing.py` for pre-processing; `python data2img.py` for visualization.
+1. [Download the data](https://drive.google.com/drive/folders/1RM0TuCpfAQbidA0GegSX8S25E9j1FiWD?usp=sharing), and run `python data2img.py` for data visualization.
 2. Modify SETTINGS.json to point to the training and validation data on your system, as well as a place to save the trained model and a place to save the submission
 3. Train the model by running `python train.py`
 4. Make predictions on the validation set by running `python predict.py`
