@@ -44,11 +44,11 @@ def read_solution():
 
 def save_model(model):
     out_path = get_paths()["model_path"]
-    pickle.dump(model, open(out_path, "w"))
+    pickle.dump(model, open(out_path, "wb"))
 
 def load_model():
     in_path = get_paths()["model_path"]
-    return pickle.load(open(in_path))
+    return pickle.load(open(in_path, "rb"))
 
 def read_submission():
     submission_path = get_paths()["submission_path"]

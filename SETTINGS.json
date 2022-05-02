@@ -1,9 +1,10 @@
 {
-    "train_pairs_path": "$DataPath/CauseEffectPairs/Competition/CEdata_train_pairs.csv",
-    "train_target_path": "$DataPath/CauseEffectPairs/Competition/CEdata_train_target.csv",
-    "train_info_path": "$DataPath/CauseEffectPairs/Competition/CEdata_train_publicinfo.csv",
-    "valid_pairs_path": "$DataPath/CauseEffectPairs/Competition/CEdata_valid_pairs.csv",
-    "valid_info_path": "$DataPath/CauseEffectPairs/Competition/CEdata_valid_publicinfo.csv",
-    "model_path": "$DataPath/CauseEffectPairs/Models/basic_python_benchmark.pickle",
-    "submission_path": "$DataPath/CauseEffectPairs/Submissions/basic_python_benchmark.csv"
+    "train_pairs_path": "/home/jianrenw/project_data/10708_project/Competition/train_pairs.csv",
+    "train_target_path": "/home/jianrenw/project_data/10708_project/Competition/train_target.csv",
+    "train_info_path": "/home/jianrenw/project_data/10708_project/Competition/CEdata_train_publicinfo.csv",
+    "valid_pairs_path": "/home/jianrenw/project_data/10708_project/Competition/valid_pairs.csv",
+    "valid_info_path": "/home/jianrenw/project_data/10708_project/Competition/CEdata_valid_publicinfo.csv",
+    "solution_path": "/home/jianrenw/project_data/10708_project/Competition/valid_target.csv",
+    "model_path": "/home/jianrenw/project_data/10708_project/Models/g.pickle",
+    "submission_path": "/home/jianrenw/project_data/10708_project/Submissions/g.csv"
 }
